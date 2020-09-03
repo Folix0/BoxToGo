@@ -63,6 +63,7 @@ strong {
 #about,
 #feature,
 #contact,
+#menu,
 footer {
   padding-top: 100px;
 
@@ -385,6 +386,19 @@ footer a:hover {
   stroke-width: 0;
 }
 
+.svgcolor-light2 {
+    /*position: absolute;
+    top: 0;
+    left: 0; */
+    position: relative;
+    bottom: 104px;
+}
+.svgcolor-light2 > path {
+    fill: #f1c11a;
+    stroke: white;
+    stroke-width: 0;
+}
+
 /* modal */
 .modal-dialog .modal-content {
   background: url('../images/modal-bg.jpg') no-repeat;
@@ -524,6 +538,7 @@ footer a:hover {
   #feature .col-md-4 {
     padding-bottom: 32px;
   }
+
 
 }
 
